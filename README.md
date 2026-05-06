@@ -1,5 +1,3 @@
-why reame ,requorements empty in repo # CASIA-Iris-Thousand: Biometric Authentication via ArcFace
-
 This repository contains a deep learning pipeline for an iris recognition system using the **CASIA-Iris-Thousand** dataset. The model leverages a **ResNet-18** backbone combined with **ArcFace (Additive Angular Margin Loss)** to map iris images into a highly discriminative 256-dimensional embedding space.
 
 In this space, images of the *same* iris are tightly clustered, while images of *different* irises are pushed far apart, enabling highly accurate biometric verification and identification.
@@ -18,8 +16,6 @@ The model achieves exceptional performance on a completely held-out test set of 
 *   **Verification EER (Equal Error Rate):** 0.65%
 *   **Optimal EER Threshold:** 0.3892
 
-*(Note: Add the generated `score_diagnostics.png`, `cmc_curve.png`, and `tsne_clusters.png` to an `iris_results` folder in your repo and link them here to visualize the score distributions and embedding clusters).*
-
 ## Dataset
 
 The **CASIA-Iris-Thousand** dataset contains 20,000 near-infrared grayscale iris images from 1,000 subjects. 
@@ -33,4 +29,3 @@ The **CASIA-Iris-Thousand** dataset contains 20,000 near-infrared grayscale iris
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/1793468/casia-iris-authentication.git
-   cd casia-iris-authentication
