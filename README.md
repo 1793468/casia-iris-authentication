@@ -33,4 +33,4 @@ The **CASIA-Iris-Thousand** dataset contains 20,000 near-infrared grayscale iris
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/1793468/casia-iris-authentication.git
-   cd casia-iris-authenticationtorch
+   cd casia-iris-authentication
